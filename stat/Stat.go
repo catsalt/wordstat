@@ -2,7 +2,7 @@
 // statistic the English txt file for English vocabulary learning
 // the Frequency of words in one file, the same words of two files.
 
-package filestat
+package wordstat
 
 import (
 	"fmt"

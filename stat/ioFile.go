@@ -1,6 +1,6 @@
 // ioFile.go
 // dir dirOut fileName fileNames txt file files word char words chars str strs
-package filestat
+package wordstat
 
 import (
 	"io/ioutil"
