@@ -1,5 +1,5 @@
 // corE.go
-package filestat
+package wordstat
 
 import (
 	"fmt"
@@ -58,7 +58,7 @@ func bEcludeRelate(strs SS) (include, exclude SS) {
 		}
 		r := false
 		for _, p := range []string{"Verbs:", "Adjectives:", "Nouns:", "Adverbs:"} {
-		// for _, p := range []string{"Nouns:"} {
+			// for _, p := range []string{"Nouns:"} {
 			if strings.Count(v, p) > 0 {
 				r = true
 				if strings.Count(v, p) > 1 {
