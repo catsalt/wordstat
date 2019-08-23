@@ -1,5 +1,5 @@
 // corE.go
-package wordstat
+package stat
 
 import (
 	"fmt"

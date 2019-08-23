@@ -1,4 +1,4 @@
-package filestat
+package stat
 
 import (
 	"fmt"
